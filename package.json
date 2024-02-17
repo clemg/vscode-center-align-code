@@ -2,9 +2,9 @@
   "name": "center-align-code",
   "displayName": "Center Align Code",
   "description": "Center align your code in Visual Studio Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "clemg",
-  "main": "extension.js",
+  "main": "./out/extension.js",
   "categories": [
     "Other",
     "Formatters"
@@ -51,8 +51,9 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "tsc -watch -p ./",
-    "compile": "tsc"
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
     "@types/vscode": "^1.75.0"
