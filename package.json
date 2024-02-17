@@ -1,0 +1,60 @@
+{
+  "name": "center-align-code",
+  "displayName": "Center Align Code",
+  "description": "Center align your code in Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "clemg",
+  "main": "extension.js",
+  "categories": [
+    "Other",
+    "Formatters"
+  ],
+  "keywords": [
+    "format center align"
+  ],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clemg/vscode-center-align-code"
+  },
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.centerText",
+        "title": "Center align code"
+      },
+      {
+        "command": "extension.toggleAutoCenter",
+        "title": "Enable auto code centering"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.centerText",
+        "key": "cmd+e"
+      },
+      {
+        "command": "extension.toggleAutoCenter",
+        "key": "cmd+alt+e"
+      },
+      {
+        "command": "extension.centerText",
+        "key": "ctrl+e"
+      },
+      {
+        "command": "extension.toggleAutoCenter",
+        "key": "ctrl+alt+e"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -watch -p ./",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.75.0"
+  }
+}
