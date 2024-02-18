@@ -2,7 +2,7 @@
   "name": "center-align-code",
   "displayName": "Center Align Code",
   "description": "Center align your code in Visual Studio Code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "clemg",
   "main": "./out/extension.js",
   "categories": [

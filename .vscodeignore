@@ -1,0 +1,4 @@
+.gitignore
+**/tsconfig.json
+**/*.ts
+node_modules/
