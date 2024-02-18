@@ -11,5 +11,5 @@ Tired of code that's all over the place? Meet `center-align-code` – the VSCode
 
 #### Shortcuts:
 
-- ⌘E / alt+E: Center align code
+- ⌘E / ctrl+E: Center align code
 - ⌥⌘E / ctrl+alt+E: Enable auto code centering
