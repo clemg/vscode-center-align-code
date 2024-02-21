@@ -10,7 +10,10 @@
     "Formatters"
   ],
   "keywords": [
-    "format center align"
+    "format",
+    "center",
+    "align",
+    "fun"
   ],
   "engines": {
     "vscode": "^1.75.0"
